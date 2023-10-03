@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-between;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #007BFF;
+}
+
+.redesocial {
+text-align: center;
+padding: 50px 200px 20px;
+}
+.tudo{
+    display:flex;
+.redesocial img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    } 
+    .Telefone{
+
+        padding: 50px 200px 20px;
+        text-align:center;
+        }
+        .Telefone img{
+            width: 25px;
+            height: 25px;
+            float: left;
+        }
+    }
+    .rodape {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .rodape img {
+        width: 150px;
+    }
